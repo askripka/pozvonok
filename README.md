@@ -18,3 +18,7 @@ https://vk.com/askripka - я ГОВНОКОДЕР Алексей Скрипка.
 https://vk.com/public125690253 - тут мои представители ЛОШКИ. 
 
 # Позвонковый Алексей Скрипка ГОВНКОДЕР и ГОВНОБИЗНЕСМЕН продал ГОВНКОД представителям ЛОШКАМ. 
+
+# License
+
+The is open-sourced software licensed under the http://opensource.org/licenses/MIT
