@@ -1,0 +1,36 @@
+AddDefaultCharset UTF-8
+RewriteEngine on
+RewriteBase /
+
+#Редирект http to https
+#RewriteCond %{HTTP:SSL} !=1 [NC]
+#RewriteRule ^(.*)$ https://%{SERVER_NAME}/$1 [R=301,L]
+
+#Редирект http to https Альтернативная версия
+RewriteCond %{HTTPS} off
+RewriteRule ^(.*)$ https://%{SERVER_NAME}/$1 [R=301,L]
+
+#Редирект 301 с www на без www
+RewriteCond %{HTTP_HOST} ^www\.(.*) [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+#Редирект 301 со слешем на конце без слеша на конце
+RewriteRule ^(.*)/$ /$1 [R=301,L]
+
+# if file or dir exists
+RewriteCond %{REQUEST_FILENAME} -f [OR]
+RewriteCond %{REQUEST_FILENAME} -d
+# "do nothing, and no more rewriting"
+RewriteRule ^ - [L]
+
+#admin rewrite rules
+RewriteRule ^adminpanel/?$ index.php?admin=1&url= [NC,L,QSA]
+RewriteRule ^adminpanel/(.*)$ index.php?admin=1&url=$1 [NC,L,QSA]
+
+#resize rewrite rules
+RewriteRule ^(.*\.(?:png|jpg|jpeg|ico|gif|bmp))$ resize.php?img=$1 [NC,L,QSA]
+
+#site rewrite rules
+RewriteRule ^(.*)/?$ index.php?url=$1 [L,QSA]
+
+

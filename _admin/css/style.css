@@ -1,0 +1,423 @@
+.adm__modal, .adm__modal label, .adm__modal input, .adm__modal textarea, .adm__modal p {
+    font-size: 13px;
+    font-family: sans-serif;
+    color: #333333;
+}
+
+.adm__modal{
+    top:20px !important;
+}
+
+.adm__modal .fancybox-skin {
+    margin-bottom: 80px;
+    padding: 8px !important;
+}
+
+.adm__modal h1 {
+    font-size: 20px;
+    line-height: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 10px 0;
+    padding: 0;
+	text-transform: none;
+}
+
+.adm__modal h2 {
+    font-size: 18px;
+    line-height: 18px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 6px 0;
+    padding: 0;
+	text-transform: none;
+}
+
+.adm__modal h3 {
+    font-size: 16px;
+    line-height: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin: 5px 0;
+    padding: 0;
+	text-transform: none;
+}
+
+.adm__panel {
+    bottom: 0;
+    box-sizing: content-box;
+    color: #333333;
+    font-family: sans-serif;
+    font-size: 12px;
+    height: 70px;
+    line-height: 12px;
+    min-width: 800px;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 9000;
+}
+
+.adm__antipanel {
+    height: 80px;
+    clear: both;
+}
+
+.adm__panel form {
+    margin: 0px;
+}
+
+.adm__panel input[type="text"], .adm__panel input[type="password"] {
+	background-color: white;
+	color: #333333;
+	border: 1px solid #efefef;
+	box-sizing: border-box;
+	float: left;
+	font-family: sans-serif;
+	font-size: 12px;
+	height: 32px;
+	margin: 1px;
+	padding: 5px;
+	width: 200px;
+}
+
+.adm__panel button[type="submit"] {
+	background-color: rgba(255, 255, 255, 0);
+	color: #333333;
+	border: 1px solid #efefef;
+	box-sizing: border-box;
+	float: left;
+	font-family: sans-serif;
+	font-size: 12px;
+	height: 32px;
+	margin: 1px;
+	padding: 5px;
+	width: 100px;
+}
+
+.adm__panel button[type="submit"]:hover {
+    background-color: #efefef;
+}
+
+.adm__button {
+    background-repeat: no-repeat;
+    background-size: 70%;
+    background-position: top center;
+    float: left;
+    font-size: 10px;
+    height: 70px;
+    margin: 0 10px;
+    opacity: 0.6;
+    padding: 52px 0 0;
+    width: 70px;
+    text-align: center;
+    color: #333;
+}
+
+.adm__button:hover {
+    opacity: 1;
+}
+
+.adm__add_page_button {
+    background-image: url(../images/icons/add_page.png);
+}
+
+.adm__edit_page_button {
+    background-image: url(../images/icons/edit_page.png);
+}
+
+.adm__delete_page_button {
+    background-image: url(../images/icons/delete_page.png);
+}
+
+.adm__add_button {
+    background-image: url(../images/icons/add.png);
+}
+
+.adm__edit_button {
+    background-image: url(../images/icons/edit.png);
+}
+
+.adm__delete_button {
+    background-image: url(../images/icons/delete.png);
+}
+
+.adm__exit_button {
+    background-image: url(../images/icons/exit.png);
+}
+
+.adm__show_button {
+    background-image: url(../images/icons/visible.png);
+}
+.adm__hide_button {
+    background-image: url(../images/icons/invisible.png);
+}
+
+
+.adm__login_button {
+    background-image: url(../images/icons/login.png);
+    float: none;
+    display: inline-block;
+}
+
+.adm__save_button {
+    background-image: url(../images/icons/save.png);
+}
+
+.adm__security_button {
+    background-image: url(../images/icons/security.png);
+}
+
+.adm__code_button {
+    background-image: url(../images/icons/code.png);
+}
+
+.adm__settings_button {
+    background-image: url(../images/icons/settings.png);
+}
+
+.adm__search_button {
+    background-image: url(../images/icons/search.png);
+}
+
+.adm__button_separator {
+    width: 25px;
+    height: 50px;
+    float: left;
+    margin: 0 10px;
+    background-image: url(../images/icons/separator.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    opacity: 0.6;
+}
+
+.adm__form {
+    margin: 0px;
+    text-align: center;
+}
+
+.adm__form a {
+    transition: none !important;
+}
+
+.adm__narrow_form {
+    width: 800px;
+}
+
+.adm__wide_form {
+    width: 1200px;
+}
+
+.adm__form legend {
+    border: medium none;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1;
+    margin: 0;
+	padding: 2px;
+    width: auto;
+}
+
+.adm__form input[type="text"], .adm__form input[type="password"], .adm__form select, .adm__form input[type="file"], .adm__form textarea, .adm__form select {
+    margin: 2px 0;
+    padding: 2px;
+    background-color: white;
+	color: #333333;
+    width: 100%;
+    float: none;
+    border: 1px solid #efefef;
+    height: 25px;
+    line-height: 20px;
+}
+
+.adm__form input[type=file]{
+    height: auto;
+    padding: 0;
+}
+
+.adm__form input[type="checkbox"], .adm__form input[type="radio"] {
+    box-sizing: border-box;
+    float: left;
+    padding: 0;
+    margin: 3px 3px 0 0;
+}
+
+.adm__form input[type="checkbox"]{
+    appearance: checkbox;
+    -moz-appearance: checkbox;
+    -ms-appearence: checkbox;
+    -o-appearence: checkbox;
+    -webkit-appearance: checkbox;
+}
+
+.adm__form input[type="radio"] {
+    appearance: radio;
+    -moz-appearance: radio;
+    -ms-appearence: radio;
+    -o-appearence: radio;
+    -webkit-appearance: radio;
+}
+
+.adm__form input[type="submit"], .adm__form button[type="submit"] {
+	background-color: #999;
+	border: 2px solid #999;
+	color: #333333;
+	box-sizing: border-box;
+	color: #fff;
+	font-family: sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	height: 40px;
+	margin: 5px;
+	padding: 5px 100px;
+}
+
+.adm__form input[type="submit"]:hover, .adm__form button[type="submit"]:hover {
+    background-color: #efefef;
+	border: 2px solid #efefef;
+	color: #666;
+}
+
+.adm__form textarea {
+    height: 80px;
+}
+
+.adm__form label {
+    display: block;
+    margin: 0 0 5px;
+    font-weight: normal;
+    clear: both;
+    text-align: left;
+}
+
+.adm__form fieldset {
+	border: 1px solid #efefef;
+	padding: 10px;
+}
+
+.adm__editable_block {
+    min-height: 10px !important;
+    min-width: 10px !important;
+    background-color: rgba(150, 150, 255, 0.4);
+    border: 1px solid rgba(50, 50, 255, 0.5);
+}
+
+.adm__editable_block:hover {
+    background-color: rgba(150, 150, 255, 0.2);
+    border: 1px solid rgba(50, 50, 255, 0.25);
+}
+
+.adm__tooltip {
+    padding: 0px;
+    min-width: 40px;
+    min-height: 40px;
+}
+
+.adm__tooltip .gtip-content {
+    padding: 10px;
+}
+
+.adm__tooltip form {
+    display: block;
+    float: left;
+    margin: 0px;
+}
+
+.adm__tooltip .adm__button {
+    width: 40px;
+    height: 40px;
+    margin: 0 2px;
+    background-size: contain;
+    background-position: center center;
+    padding: 0;
+}
+
+.adm__inline_page_inputs input, .adm__inline_page_inputs select {
+    display: inline;
+    width: 32% !important;
+}
+
+.adm__table {
+    clear: both;
+    border: 1px solid #cfcfcf;
+}
+
+.adm__table th {
+    border-bottom: 1px solid #cfcfcf;
+    border-right: 1px solid #d7d7d7;
+    color: #5a5a5a;
+    padding: 10px 15px;
+    font-size: 13px;
+    line-height: normal;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.adm__table td {
+    border-right: 1px solid #d7d7d7;
+    background: #f3f3f3;
+    color: #5a5a5a;
+    font-size: 13px;
+    line-height: normal;
+    text-align: center;
+}
+
+.adm__table tbody tr:nth-child(2n+1) td {
+    background: #f8f8f8;
+}
+
+fieldset.adm__sub_element {
+    float: left;
+    margin: 0 5px;
+    width: 49%;
+}
+
+.adm__tree_column{
+    width: 32.4%;
+    float: left;
+    margin: 0 5px
+}
+
+.adm__copyright{
+    bottom: 5px;
+    color: #666;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 25px;
+    display: block;
+    font-size: 10px;
+}
+
+.adm__copyright:hover{
+    text-decoration: underline;
+}
+
+.adm__modal .DTTT_container{
+    margin-left: 10px;
+}
+
+.adm__modal .dataTables_wrapper .dataTables_filter input{
+    margin-left: 0.5em;
+    margin-top: 0.25em;
+}
+
+.adm__datatable tr td:first-child{
+    width: 25px !important;
+}
+
+.adm__datatable tr, .adm__datatable td{
+    padding: 2px 2px !important;
+    margin: 0 !important;
+}
+.adm__datatable thead .sorting{
+    padding-right: 20px !important;
+}
+
+.adm__error_message{
+    margin: 2px;
+    color: red;
+    clear: both;
+}
